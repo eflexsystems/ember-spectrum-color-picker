@@ -1,11 +1,11 @@
-# Ember-spectrum-color-picker
+# eflex-ember-spectrum-color-picker
 
 Simple Ember color picker component based on [spectrum.js](http://bgrins.github.io/spectrum/).
 
 ## Installation
 
 ```
-ember install ember-spectrum-color-picker
+ember install eflex-ember-spectrum-color-picker
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 {
-  "name": "ember-spectrum-color-picker",
-  "version": "0.8.1",
+  "name": "eflex-ember-spectrum-color-picker",
+  "version": "0.9.0",
   "description": "Simple Ember component wrapper for the Spectrum.js color picker.",
   "keywords": [
     "ember-addon",
@@ -16,7 +16,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/rsschermer/ember-spectrum-color-picker",
+  "repository": "https://github.com/eflexsystems/ember-spectrum-color-picker",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -56,7 +56,7 @@
     "configPath": "tests/dummy/config"
   },
   "bugs": {
-    "url": "https://github.com/rsschermer/ember-spectrum-color-picker/issues"
+    "url": "https://github.com/eflexsystems/ember-spectrum-color-picker/issues"
   },
-  "homepage": "https://github.com/rsschermer/ember-spectrum-color-picker"
+  "homepage": "https://github.com/eflexsystems/ember-spectrum-color-picker"
 }
