@@ -102,8 +102,9 @@ export default Ember.Component.extend({
 
   setCallbacks(opts) {
     let self = this;
+    let preferredFormat = self.get('preferredFormat');
     let updateFunction = function (newColor) {
-      let color = newColor ? newColor.toString() : null;
+      let color = newColor ? newColor.toString(preferredFormat) : null;
       let onChange = self.get('onChange');
 
       if (!self.isDestroyed) {
@@ -125,7 +126,7 @@ export default Ember.Component.extend({
     let onMove = self.get('onMove');
     if (onMove) {
       opts.move = function (newColor) {
-        onMove(newColor ? newColor.toString() : null);
+        onMove(newColor ? newColor.toString(preferredFormat) : null);
       };
     }
 
@@ -133,7 +134,7 @@ export default Ember.Component.extend({
     let onHide = self.get('onHide');
     if (onHide) {
       opts.hide = function (newColor) {
-        onHide(newColor ? newColor.toString() : null);
+        onHide(newColor ? newColor.toString(preferredFormat) : null);
       };
     }
 
@@ -141,7 +142,7 @@ export default Ember.Component.extend({
     let onShow = self.get('onShow');
     if (onShow) {
       opts.show = function (newColor) {
-        onShow(newColor ? newColor.toString() : null);
+        onShow(newColor ? newColor.toString(preferredFormat) : null);
       };
     }
 
