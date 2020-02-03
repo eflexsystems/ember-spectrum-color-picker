@@ -10,14 +10,13 @@
     "color-picker",
     "color"
   ],
-  "repository": "https://github.com/rsschermer/ember-spectrum-color-picker",
+  "repository": "https://github.com/eflexsystems/ember-spectrum-color-picker",
   "license": "MIT",
   "author": "R.S. Schermer",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/eflexsystems/ember-spectrum-color-picker",
   "scripts": {
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
