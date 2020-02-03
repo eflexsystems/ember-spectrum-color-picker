@@ -27,8 +27,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.7.3",
-    "spectrum-colorpicker": "1.8.0",
-    "tinycolor2": "1.4.1"
+    "spectrum-colorpicker": "1.8.0"
   },
   "devDependencies": {
     "@ember/jquery": "^1.1.0",
