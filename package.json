@@ -1,7 +1,10 @@
 {
   "name": "@eflexsystems/ember-spectrum-color-picker",
-  "version": "0.10.0",
+  "version": "0.10.0-1",
   "description": "Simple Ember component wrapper for the Spectrum.js color picker.",
+  "keywords": [
+    "ember-addon"
+  ],
   "repository": "https://github.com/eflexsystems/ember-spectrum-color-picker",
   "license": "MIT",
   "author": "R.S. Schermer",
